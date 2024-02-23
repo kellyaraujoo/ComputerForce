@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="img-container">
+                <img src="img/logo.png" alt="Logo Computer Force">
+            </div>
+            <link rel="stylesheet" href="register.css">
+        </header>
+
+        <menu>
+             <li>
+                 <a href="Index.html" style="text-decoration:none" class="button">HOME</a>
+                 <a href="products.html" style="text-decoration:none" class="button">PRODUCTS</a>
+                 <a href="register.html" style="text-decoration:none" class="button">REGISTER</a>
+                 <a href="about.html" style="text-decoration:none" class="button">ABOUT</a>
+                </li>
+                <li class="right">
+                    <form class="searchbox" action="busca.html" method="get">
+                        <input class="search" type="text" placeholder="Search...">
+                        <button class="btn-busca">SEARCH</button>
+                    </form>
+                </li>
+        </menu>
+
+        <main>
+            <h2>PURCHASE</h2>
+            <table>
+                <tr>
+                    <td>0 Items</td>
+                    <td>Cart Subtotal: U$0</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button class="btn-checkout">GO TO CHECKOUT</button></td>
+                </tr>
+            </table>
+        </main>
+
+
+
+        <div id="sidebar">
+            <div class= "regis-container">
+                <div class="form">
+                        <div class="form-hearder">
+                            <div class="title">
+                                <h1>Registration Form</h1>
+                                Please complete the following form to register for an account on our website.
+                            </div>
+                        </div>
+
+                        <div class="imput-group">
+
+                            <div class="input-box">
+                                <label for="firstname">First Name</label>
+                                <input id="firstname" type="text" name="Firstname" placeholder="First Name" required>
+                            </div>
+
+                            <div class="input-box">
+                                <label for="surname">Surname</label>
+                                <input id="surname" type="text" name="Surname" placeholder="Surname" required>
+                            </div>
+
+                            <div class="input-box">
+                                <label for="username">Username</label>
+                                <input id="username" type="text" name="Username" placeholder="Username" required>
+                            </div>
+
+                            <div class="input-box">
+                                <label for="number">Phone Number</label>
+                                <input id="number" type="tel" name="number" placeholder="+61 400 000 000">
+                            </div>
+
+                            <div class="input-box">
+                                <label for="date">Date of Birth</label>
+                                <input id="date" type="date" name="date">
+                            </div>
+
+                            
+                            <div class="input-box">
+                                <label for="address">Address</label>
+                                <input id="address" type="text" name="address" placeholder="Adress" required>
+                            </div>
+
+                            <div class="input-box">
+                                <label for="suburb">Suburb</label>
+                                <input id="suburb" type="text" name="suburb" placeholder="Suburb" required>
+                            </div>
+
+                            <div class="input-box">
+                                <label for="postcode">Postcode</label>
+                                <input id="postcode" type="text" name="postcode" placeholder="Postcode" required>
+                            </div>
+
+                                    <div class="state-input">
+                                        <div class="state-title">
+                                            <h4>State</h4>
+                                        </div>
+                            
+                                      <div class="state-group">
+                                    <div class="state-input">
+                                        <input type="radio" id="act" name="state">
+                                        <label for="act">ACT</label>
+                                    </div>
+    
+                                    <div class="state-input">
+                                        <input type="radio" id="nsw" name="state">
+                                        <label for="nsw">NSW</label>
+                                    </div>
+    
+                                    <div class="state-input">
+                                        <input type="radio" id="nt" name="state">
+                                        <label for="nt">NT</label>
+                                    </div>
+
+                                    <div class="state-input">
+                                        <input type="radio" id="qld" name="state">
+                                        <label for="qld">QLD</label>
+                                    </div>
+                                    
+                                    <div class="state-input">
+                                        <input type="radio" id="sa" name="state">
+                                        <label for="sa">SA</label>
+                                    </div>
+
+                                    <div class="state-input">
+                                        <input type="radio" id="tas" name="state">
+                                        <label for="tas">TAS</label>
+                                    </div>
+
+                                    <div class="state-input">
+                                        <input type="radio" id="vic" name="state">
+                                        <label for="vic">VIC</label>
+                                    </div>
+
+                                    <div class="state-input">
+                                        <input type="radio" id="wa" name="state">
+                                        <label for="wa">WA</label>
+                                    </div>
+
+                                    <div class="gender-input">
+                                        <div class="gender-title">
+                                            <h4>Gender</h4>
+                                        </div>
+        
+                                        <div class="gender-group">
+                                            <div class="gender-input">
+                                                <input type="radio" id="female" name="gender">
+                                                <label for="female">Female</label>
+                                            </div>
+            
+                                            <div class="gender-input">
+                                                <input type="radio" id="male" name="gender">
+                                                <label for="male">Male</label>
+                                            </div>
+            
+                                            <div class="gender-input">
+                                                <input type="radio" id="none" name="gender">
+                                                <label for="none">Prefer not to disclose</label>
+                                            </div>
+                                            
+                           <div class="input-box">
+                                <label for="email">Email Adress</label>
+                                <input id="email" type="email" name="Email" placeholder="Email Andress" required>
+                            </div>
+
+                            <div class="input-box">
+                                <label for="password">Password</label>
+                                <input id="password" type="password" name="Password" placeholder="Password" required>
+                            </div>
+
+                            <div class="input-box">
+                                <label for="confirmpassword">Confirm Password</label>
+                                <input id="confirmpassword" type="password" name="Password" placeholder="Password" required>
+                            </div> 
+                        </div>
+                            </div>
+                        </div>
+                         <br>
+                            <a href="#" style="text-decoration:none" class="button">CLEAR</a>
+                            <a href="#" style="text-decoration:none" class="button">REGISTER</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        
+        <footer>
+            <p>Copyright © 2024. Kelly Araujo</p>
+        </footer>
+
+    </div>
+</body>
+</html> 
